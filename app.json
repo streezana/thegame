@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "ComboFruits",
+    "slug": "thegame",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/redapple.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/fruits.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.streezana.thegame"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a574c403-f29b-4882-87d1-18fd1e9017f4"
+      }
+    }
+  }
+}
